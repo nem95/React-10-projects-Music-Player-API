@@ -25,7 +25,7 @@ const front_redirect_uri = process.env.FRONT_REDIRECT_URI
  * @return {string} The generated string
  */
 const generateRandomString = function(length) {
-  const text = '';
+  let text = '';
   const possible = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
 
   for (let i = 0; i < length; i++) {
